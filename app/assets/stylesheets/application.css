@@ -13,3 +13,29 @@
  *= require_tree .
  *= require_self
  */
+
+ body {
+    font-size: 120%;
+    background-color: lightblue;
+    color: darkslategray;
+    margin-left: 20px;
+  }
+
+a, a:visited, a:active {
+    color: inherit;
+  }
+
+.hidden {
+    display: none;
+}
+
+button {
+  font-size: 110%;
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  color: inherit;
+  cursor: pointer;
+  text-decoration: underline;
+}

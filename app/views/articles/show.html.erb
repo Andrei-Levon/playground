@@ -16,5 +16,11 @@
 <h2>Comments</h2>
 <%= render @article.comments %>
 
-<h2>Add a comment:</h2>
-<%= render 'comments/form' %>
+
+<div id="options" data-controller="visibility">
+  <button data-action="visibility#toggleTargets">Add a comment</button>
+  <div data-visibility-target="hideable" hidden>
+    <%= render 'comments/form' %>
+  </div>
+</div>
+
