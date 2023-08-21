@@ -15,8 +15,12 @@
  */
 
  body {
+    background-color: lightblue;  
+    background-image: url('bg.jpg');
+    background-size: 150%;
+    background-position: top 0px right 0px;
+    background-repeat: no-repeat;
     font-size: 120%;
-    background-color: lightblue;
     color: darkslategray;
     margin-left: 20px;
   }
