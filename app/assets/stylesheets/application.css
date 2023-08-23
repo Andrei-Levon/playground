@@ -17,6 +17,7 @@
  body {
     background-color: lightblue;  
     background-image: url('bg.jpg');
+    /* background-blend-mode: hard-light; */
     background-size: 150%;
     background-position: top 0px right 0px;
     background-repeat: no-repeat;
@@ -42,4 +43,13 @@ button {
   color: inherit;
   cursor: pointer;
   text-decoration: underline;
+}
+
+#godown {
+  margin-top: 350px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
 }
